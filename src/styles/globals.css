@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.backd{
+backdrop-filter: blur(55.7px);
+-webkit-backdrop-filter: blur(40.7px);
+}
