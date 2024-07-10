@@ -20,15 +20,17 @@ const config: Config = {
       },
       backdropFilter: {
         'blur-contrast': 'blur(13.7px) contrast(0.7)',
-        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "Hero-bg": "url(/blob.svg)"
+        "Hero-bg": "url(/blob.svg)",
+        "custom-gradient": "radial-gradient(circle, rgba(240,237,6,0.3086484593837535) 16%, rgba(255,0,147,0.364670868347339) 71%, rgba(255,0,249,0.644782913165266) 100%);"
       },
       colors: {
         "Primary": '#9d1ae5',
         "secondary": '#efd25c',
+        "background": "linear-gradient(0deg, rgba(240,237,6,0.41789215686274506) 16%, rgba(255,0,147,1) 71%, rgba(255,0,249,1) 100%)",
       },
       fontFamily: {
         sans: ['Playwrite DE Grund', 'sans-serif'],
@@ -38,7 +40,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [  ],
+  plugins: [],
 };
 
 export default config;

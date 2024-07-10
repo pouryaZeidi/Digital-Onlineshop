@@ -10,6 +10,7 @@
         "price":"600$",
         "discount":false,
         "stock":"10",
+        "type":"mobile",
         "img":"https://images.pexels.com/photos/583847/pexels-photo-583847.jpeg?auto=compress&cs=tinysrgb&w=600",
         "img2":"https://images.pexels.com/photos/336948/pexels-photo-336948.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
@@ -17,10 +18,11 @@
       {
         "id":"102",
         "name":"Iphone13",
-        "title":"Iphone-13-normal",
+        "title":"Iphone-13-128",
         "price":"800$",
         "discount":false,
         "stock":"25",
+        "type":"mobile",
         "img":"https://images.pexels.com/photos/5053738/pexels-photo-5053738.jpeg?auto=compress&cs=tinysrgb&w=600",
         "img2":"https://images.pexels.com/photos/5077066/pexels-photo-5077066.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
@@ -28,10 +30,11 @@
       {
         "id":"103",
         "name":"Iphone15-promax",
-        "title":"Iphone15-promax",
+        "title":"Iphone15-256GB",
         "price":"1100$",
         "discount":false,
         "stock":"39",
+        "type":"mobile",
         "img":"https://images.pexels.com/photos/19060160/pexels-photo-19060160/free-photo-of-close-up-of-a-person-holding-an-iphone-15-pro.jpeg?auto=compress&cs=tinysrgb&w=600",
         "img2":"https://images.pexels.com/photos/19060160/pexels-photo-19060160/free-photo-of-close-up-of-a-person-holding-an-iphone-15-pro.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
@@ -39,10 +42,11 @@
       {
         "id":"104",
         "name":"Samsung-galaxy-s24",
-        "title":"Samsung-galaxy-s24",
+        "title":"Samsung-S24(New)",
         "price":"950$",
         "discount":false,
         "stock":"12",
+        "type":"mobile",
         "img":"https://images.pexels.com/photos/20348034/pexels-photo-20348034/free-photo-of-camera-lenses-of-samsung-galaxy-s24.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "img2":"https://images.pexels.com/photos/20348037/pexels-photo-20348037/free-photo-of-back-of-the-samsung-galaxy-s24-smartphone.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       }
@@ -51,11 +55,12 @@
     "tablet":[
       {
         "id":"201",
-        "name":"ipad-air5",
-        "title":"ipad-air-5",
+        "name":"Ipad-Air5",
+        "title":"Ipad-512GB",
         "price":"1500$",
         "discount":false,
         "stock":"5",
+        "type":"tablet",
         "img":"https://images.pexels.com/photos/3082341/pexels-photo-3082341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "img2":"https://images.pexels.com/photos/13570174/pexels-photo-13570174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       }
@@ -63,32 +68,35 @@
       {
         "id":"202",
         "name":"ipad-9",
-        "title":"ipad-9",
+        "title":"ipad-128GB",
         "price":"1000$",
         "discount":false,
         "stock":"12",
+        "type":"tablet",
         "img":"https://images.pexels.com/photos/4065153/pexels-photo-4065153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "img2":"https://images.pexels.com/photos/220290/pexels-photo-220290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       }
       ,
       {
         "id":"203",
-        "name":"ipad-pro",
-        "title":"ipad-pro",
+        "name":"Ipad-pro",
+        "title":"Ipad-256GB",
         "price":"1800$",
         "discount":false,
         "stock":"20",
+        "type":"tablet",
         "img":"https://images.pexels.com/photos/14713024/pexels-photo-14713024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "img2":"https://images.pexels.com/photos/8148647/pexels-photo-8148647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       }
       ,
       {
         "id":"204",
-        "name":"ipad-7th-gen",
-        "title":"ipad-7th-64gb",
+        "name":"Ipad-7th-Gen",
+        "title":"Ipad-64GB",
         "price":"750$",
         "discount":false,
         "stock":"1",
+        "type":"tablet",
         "img":"https://images.pexels.com/photos/1051077/pexels-photo-1051077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "img2":"https://images.pexels.com/photos/2351844/pexels-photo-2351844.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       }
@@ -97,42 +105,46 @@
     "laptop":[
       {
         "id":"301",
-        "name":"macbook-air2022",
-        "title":"macbook-air-512gb-Ram:8gb",
+        "name":"Macbook-air2022",
+        "title":"air-512gb-Ram:8gb",
         "price":"1950$",
         "discount":false,
         "stock":"18",
+        "type":"laptop",
         "img":"https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "img2":"https://images.pexels.com/photos/296115/pexels-photo-296115.jpeg"
     }
     ,
     {
       "id":"302",
-      "name":"macbook-pro-2017",
-      "title":"macbook-pro-256gb-Ram:8gb",
+      "name":"Macbook-Pro-2017",
+      "title":"Pro-256gb-Ram:8gb",
       "price":"1000$",
       "discount":false,
       "stock":"5",
+      "type":"laptop",
       "img":"https://images.pexels.com/photos/249538/pexels-photo-249538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "img2":"https://images.pexels.com/photos/3712595/pexels-photo-3712595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   }
   ,{
     "id":"303",
     "name":"macbook-air-2020",
-    "title":"macbook-air-2020-256gb-Ram:8gb",
+    "title":"Air-256gb-Ram:8gb",
     "price":"1100$",
     "discount":false,
     "stock":"15",
+    "type":"laptop",
     "img":"https://images.pexels.com/photos/3183202/pexels-photo-3183202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "img2":"https://images.pexels.com/photos/5076531/pexels-photo-5076531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 }
 ,{
   "id":"304",
   "name":"macbook-air-2021",
-  "title":"macbook-air-2021-256gb-Ram:8gb",
+  "title":"Air-256GB-Ram:8GB",
   "price":"1500$",
   "discount":false,
   "stock":"3",
+  "type":"laptop",
   "img":"https://images.pexels.com/photos/207589/pexels-photo-207589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   "img2":"https://images.pexels.com/photos/249541/pexels-photo-249541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 }
@@ -140,42 +152,46 @@
     "tv":[
       {
         "id":"401",
-        "name":"samsung-50inch-smart",
+        "name":"Samsung-50inch",
         "title":"Smart-TV",
         "price":"1800$",
         "discount":false,
         "stock":"4",
+        "type":"tv",
         "img":"https://images.pexels.com/photos/670246/pexels-photo-670246.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "img2":"https://images.pexels.com/photos/5202957/pexels-photo-5202957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
     ,
     {
       "id":"402",
-      "name":"Lg-unique",
+      "name":"LG-unique",
       "title":"LG-42inch",
       "price":"2100$",
       "discount":false,
       "stock":"2",
+      "type":"tv",
       "img":"https://images.pexels.com/photos/6265834/pexels-photo-6265834.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "img2":"https://images.pexels.com/photos/6782368/pexels-photo-6782368.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   }
   , {
     "id":"403",
-    "name":"Lg-TV",
+    "name":"LG-TV",
     "title":"LG-50inch",
     "price":"1800$",
     "discount":false,
     "stock":"12",
+    "type":"tv",
     "img":"https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "img2":"https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 }
 , {
   "id":"404",
-  "name":"sony",
+  "name":"Sony",
   "title":"Sony-Smart-72inch",
   "price":"3100$",
   "discount":false,
   "stock":"20",
+  "type":"tv",
   "img":"https://images.pexels.com/photos/1046639/pexels-photo-1046639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   "img2":"https://images.pexels.com/photos/6758778/pexels-photo-6758778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 }
