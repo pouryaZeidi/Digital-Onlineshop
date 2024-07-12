@@ -52,3 +52,6 @@ export type inputprops = {
     txt:string
     placeholder:string
 }
+export type hamburgerprops = {
+    onclick:any
+}

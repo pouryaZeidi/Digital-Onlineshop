@@ -1,5 +1,6 @@
 import Button from '@/components/Button'
 import SignInput from '@/components/SignInput'
+import Link from 'next/link';
 import React from 'react'
 import { MdSwitchAccount } from "react-icons/md";
 
@@ -14,12 +15,16 @@ const SignIn = () => {
           <div className='sm:ml-5 flex flex-col md:flex-row '>
           <SignInput txt={'User Name '} placeholder={ 'Type your Username'}></SignInput>
           <br />
-          <SignInput txt={'Password'} placeholder={ 'Your Password'}></SignInput>
+          <SignInput txt={' Password '} placeholder={ 'Your Password'}></SignInput>
           </div>
           <div className='flex justify-center '>
           <Button txt={'SIGN IN'} onclick={function () {
             throw new Error('Function not implemented.');
           } } textSize='text-[40px]'/>
+          <div className='m-3 p-2 '>
+            <span className='mr-3'>Create an account :</span>
+            <Link href='/sign-up' className='sm:text-2xl text-xl text-Primary hover:text-secondary '>"SIGN UP HERE"</Link>
+          </div>
           </div>
         
           </div>
